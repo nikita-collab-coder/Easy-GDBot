@@ -1,0 +1,82 @@
+{
+	"geode": "6.0.0",
+	"gd": {
+		"win": "2.2091",
+		"android": "2.2091"
+	},
+	"id": "komarowgd.easy-gdbot",
+	"name": "Easy GDBot",
+	"version": "v1.1.0",
+	"developer": "komarowGD",
+	"description": "Macro bot (.gdr2) with TPS Bypass, Frame Advance, Noclip, SpeedHack, hitboxes and trajectory",
+	"settings": {
+		"menu-key": {
+			"type": "keybind",
+			"name": "Open Easy GDBot menu",
+			"description": "Key that opens / closes the bot menu (GUI)",
+			"default": "Tab"
+		},
+		"record-key": {
+			"type": "keybind",
+			"name": "Toggle recording",
+			"description": "Start / stop recording a macro",
+			"default": "Alt+R"
+		},
+		"play-key": {
+			"type": "keybind",
+			"name": "Toggle playback",
+			"description": "Start / stop playing the loaded macro",
+			"default": "Alt+P"
+		},
+		"speedhack-key": {
+			"type": "keybind",
+			"name": "Toggle SpeedHack",
+			"default": "Alt+S"
+		},
+		"hitboxes-key": {
+			"type": "keybind",
+			"name": "Toggle Show Hitboxes",
+			"default": "Alt+H"
+		},
+		"noclip-key": {
+			"type": "keybind",
+			"name": "Toggle Noclip",
+			"default": "Alt+N"
+		},
+		"trajectory-key": {
+			"type": "keybind",
+			"name": "Toggle Show Trajectory",
+			"default": "Alt+T"
+		},
+		"frame-advance-key": {
+			"type": "keybind",
+			"name": "Toggle Frame Advance",
+			"default": "Alt+F"
+		},
+		"frame-step-key": {
+			"type": "keybind",
+			"name": "Next frame (Frame Advance)",
+			"default": "C"
+		},
+		"pause-button": {
+			"type": "bool",
+			"name": "Button in pause menu",
+			"description": "Shows the Easy GDBot button in the pause menu (opens the bot menu)",
+			"default": true,
+			"platforms": [
+				"android"
+			]
+		}
+	},
+	"dependencies": {},
+	"tags": [
+		"cheat",
+		"gameplay",
+		"utility"
+	],
+	"resources": {
+		"sprites": [
+			"resources/*.png"
+		]
+	}
+}
